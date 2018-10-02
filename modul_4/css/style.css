@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 1110px;
+    padding-top: 38px;
+    margin: 0 auto;
+}
+
+header {
+    padding-bottom: 106px;
+}
+
+.catalog {
+    margin-bottom: 100px;
+}
+
+.logo,
+.main-menu,
+.item-name,
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;    
+}
+
+.logo {
+    float: left;
+}
+.logo::first-letter {
+    color: green;
+}
+
+.main-menu .menu li {
+    float: left;
+    padding: 10px;
+}
+
+.main-menu {
+    float: right;
+}
+
+h1, 
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1::after,
+h2::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid green;
+    width: 80px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.item {
+    width: 255px;
+    height: 323px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.item img {
+    width: 255px;
+    height: 283px;
+}
+
+.item:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.item-name {
+    float: left;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 40px;
+}
+
+.price {
+    float: right;
+    width: 55px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    line-height: 40px;  
+}
+
+.item:hover .price {
+    background: rgba(0, 255, 0, 0.5);
+}
+.item:hover .item-name {
+    background: rgba(0, 255, 0);
+}
+.menu a:hover {
+    color: green;
+}
+
+.news img {
+    width: 350px;
+}
+
+.news {
+    float: left;
+    width: 350px;
+    height: 250px;
+    margin: 0 20px 0 0;
+}
+
+h4::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid green;
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+.text-news {
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 120px;
+    height: 50px;
+    background: green;
+    color: white;
+    border: 0;
+}
+
