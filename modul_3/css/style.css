@@ -1,0 +1,19 @@
+.container {
+    margin:auto;
+    width: 960px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card_1,
+.card_2 {
+    display: inline-block;
+    width:470px;
+
+}
+
+header,
+section {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+

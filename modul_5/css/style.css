@@ -1,0 +1,152 @@
+html,
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.cover {
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.task2 {
+    list-style: none;
+    width: 400px;
+    height: 400px;
+    background: #424242;
+    position: relative;
+
+}
+.task2-item:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.task2-item:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+.task2-item:nth-child(3) {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+.task2-item:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.task2-item:nth-child(5) {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.task2-item:nth-child(6) {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+.task2-item:nth-child(7) {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 41, 204);
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+
+.task2-item:nth-child(8) {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(2, 198, 233);
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+.task2-item:nth-child(9) {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 219, 41);
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.menu {
+    width: 1350px;
+
+    margin-bottom: 100px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background: red;
+    margin-right: 20px;
+    position: relative;
+
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 105px;
+}
+
+.submenu-item {
+    width: 200px;
+    height: 100px;
+    background: blue;
+    margin-bottom: 2px;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.123 {
+    display: flex;
+}
