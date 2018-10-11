@@ -37,7 +37,14 @@
     width: 215px;
     margin: 0 auto;
     padding: 10px;
-    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: 'Roboto', sans-serif;
+    transition: box-shadow 1s;
+    margin-bottom: 50px;
+}
+
+.card .foto {
+    transition: transform 0.5s; 
 }
 
 .name {
@@ -45,11 +52,37 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    transition: transform 0.2s, color 0.3s;
 }
 .description {
     font-size: 20px;
     text-align: center;
 }
+button {
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    background-color: lightcoral;
+    margin: 5px auto;
+    font-size: 24px;
+    font-weight: bold;
+    transition: width 0.5s, background-color 1s;
+}
 
+button:hover {
+    background-color: orange;
+    width: 100%;
+}
 
+.card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.foto:hover {
+    transform: rotate(5deg);
+}
+.name:hover  {
+     color: orange;
+     transform: scale(1.15)
+ }
 
